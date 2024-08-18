@@ -1,0 +1,76 @@
+.top-nav .call li {
+    text-align: right;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.top-nav .call {
+    background-color: green;
+    margin-left: 1500px;
+}
+
+.top-nav .logo {
+    height: 100px;
+    background-image: url('/images/IMG_5109.PNG');
+}
+
+.top-nav div {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.top-nav div li {
+    text-decoration: none;
+}
+
+.top-nav img {
+    height: 100px;
+}
+
+.sec-nav {
+    text-align: center;
+    background-color: gray;
+    height: 40px;
+}
+
+.sec-nav li {
+    display: inline;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-board {
+    background-image: url('/images/donut.jpg');
+    height: 500px;
+}
+
+.main-board div {
+    display: inline-block;
+}
+
+.main-board form {
+    text-align: right;
+    margin-left: 200px;
+    background-color:cornflowerblue;
+    padding: 40px;
+}
+
+.main-board .about h1 {
+    text-align: center;
+    color: white;
+}
+
+.main-board .about {
+    text-align: center;
+    margin: 100px;
+}
+
+.testimonials {
+    background-color: beige;
+    height: 200px;
+}
+
+.testimonials h1 {
+    text-align: center;
+}
