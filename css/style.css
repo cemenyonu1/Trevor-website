@@ -1,35 +1,21 @@
-/*
-.top-nav .call li {
-    text-align: right;
-    margin-right: 30px;
-    text-decoration: none;
-}
-*/
-
 .top-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .top-nav .call {
-    background-color: green;
+    background-color: #000850;
     margin-right: 10%;
     text-align: center;
     padding: 10px;
     grid-column-start: 5;
     grid-column-end: 6;
 }
-/*
-.top-nav .logo {
-    height: 100px;
-    background-image: url('/images/IMG_5109.PNG');
+
+.call h3 {
+    color: white;
 }
 
-.top-nav div {
-    display: inline-block;
-    text-decoration: none;
-}
-*/
 .top-nav div li {
     text-decoration: none;
 }
@@ -75,11 +61,6 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
-/*
-.main-board div {
-    display: inline-block;
-    margin: 0 auto;
-}*/
 
 .main-board .front-form {
     text-align: right;
@@ -125,6 +106,11 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 5;
+    
+}
+
+.services li {
+    display: inline;
 }
 
 .message {
@@ -132,6 +118,7 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 5;
+    text-align: center;
 }
 
 .different {
@@ -139,6 +126,7 @@
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 5;
+    text-align: center;
 }
 
 .testimonials {
@@ -146,4 +134,5 @@
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 5;
+    text-align: center;
 }
