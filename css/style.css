@@ -1,7 +1,14 @@
+/*
 .top-nav .call li {
     text-align: right;
     margin-right: 30px;
     text-decoration: none;
+}
+*/
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .top-nav .call {
@@ -9,6 +16,8 @@
     margin-right: 10%;
     text-align: center;
     padding: 10px;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 /*
 .top-nav .logo {
@@ -28,6 +37,8 @@
 .top-nav img {
     height: 100px;
     margin-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .sec-nav {
